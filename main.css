@@ -580,13 +580,21 @@ button {
                 border-top: 3px solid #fff;
             }
 
- .col4 ul li {
+ .col4 ul li:nth-child(2), .col4 ul li:nth-child(3) {
     display: flex;
     gap: 10px;
     align-items: start;
     align-items: center;
     /* gap: 12px; */
     margin-bottom: 18px;
+}
+
+.col4 ul li:nth-child(2){
+    margin-top: 10px;
+}
+
+.col4 ul li:nth-child(1) i{
+    font-size: 25px;margin-left: 10px !important;
 }
 
 .col4 ul li:nth-child(2) i, .col4 ul li:nth-child(3) i {
@@ -603,8 +611,4 @@ button {
     align-items: center;
     justify-content: center;
 }
-      
-      
-
-
 
